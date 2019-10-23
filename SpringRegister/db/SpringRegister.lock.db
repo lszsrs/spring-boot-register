@@ -1,6 +1,0 @@
-#FileLock
-#Sat May 25 15:23:20 BRT 2019
-hostName=MISTLESS
-id=16af03b8d9dc3ee277a306a747baadad5a6d6488b78
-method=file
-server=192.168.56.1\:50577

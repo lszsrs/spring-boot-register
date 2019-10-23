@@ -12,6 +12,7 @@ import javax.persistence.Table;
 public class Movie {
 	@Id
 	@GeneratedValue
+	private Long id;
 	private String name; 
 	private int duration; 
 	private String releaseDate;
@@ -31,6 +32,15 @@ public class Movie {
 		this.awardIndication = awardIndication;
 		this.director = director;
 	}
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public String getName() {
 		return name;
 	}
